@@ -189,7 +189,7 @@ bool parse_input(char *input_buffer, int input_buffer_size,
     /* Save the user index. */
     *user_index = result;
 
-  } else if (strncmp(receive_buffer, "MSG", 3) == 0) {
+  } else if (strncmp(input_buffer, "MSG", 3) == 0) {
 
     /* TODO */
 
